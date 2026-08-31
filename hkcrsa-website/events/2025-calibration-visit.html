@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Sample event page — HKCRSA calibration site visit.">
+  <title>Site Visit: Calibration &amp; QA (Sample) — HKCRSA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Source+Sans+3:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+SC:wght@400;600&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--blue:#1e91c7;--blue2:#126da9;--blue-lt:#e8f5fb;--blue-bd:#a8d8ef;--navy:#0d3658;--red:#d92832;--red-lt:#fff0f0;--red-bd:#f0c0c3;--gold:#c8860a;--ink:#15293b;--muted:#5f7180;--pale:#f1f8fc;--line:#d9e6ee;--white:#fff;--wrap:880px}
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.7 "Source Sans 3","Noto Sans SC",sans-serif;color:var(--ink);background:#fff}
+    body.zh{font-family:"Noto Sans SC","Source Sans 3",sans-serif}
+    body.tc{font-family:"Noto Sans TC","Source Sans 3",sans-serif}
+    h1,h2,h3{font-family:"Source Serif 4","Noto Serif SC",serif;line-height:1.25;margin:0;color:var(--navy)}
+    body.zh h1,body.zh h2,body.zh h3{font-family:"Noto Serif SC",sans-serif}
+    body.tc h1,body.tc h2,body.tc h3{font-family:"Noto Serif TC",sans-serif}
+    a{color:var(--blue2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .top{background:var(--navy);color:#dcecf5}
+    .top .wrap{max-width:var(--wrap);margin:auto;height:38px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-size:.78rem}
+    .top .back{color:#b7d5e6}
+    .top .back:hover{color:#fff}
+    .lang button{border:0;background:transparent;color:#b7d5e6;padding:3px 7px;cursor:pointer;font-size:.78rem}
+    .lang button.on{color:#fff;text-decoration:underline;text-underline-offset:4px}
+    .wrap{max-width:var(--wrap);margin:auto;padding:0 20px}
+    header.hero{background:linear-gradient(115deg,#f3fbff,#fff);border-bottom:1px solid var(--line);padding:54px 0 38px}
+    .meta{display:flex;gap:12px;align-items:center;margin-bottom:16px;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
+    .badge{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);background:#fdf6e3;border:1px solid #d4b86a;padding:3px 9px;border-radius:3px}
+    .badge.sample{color:var(--red);background:var(--red-lt);border-color:var(--red-bd)}
+    h1{font-size:clamp(1.9rem,4vw,2.7rem);max-width:780px}
+    .lead{color:#486274;font-size:1.02rem;max-width:740px;line-height:1.85;margin-top:14px}
+    .figure{position:relative;height:260px;background:var(--pale);border:1.5px dashed var(--blue-bd);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.9rem;margin:34px 0;text-align:center}
+    article{max-width:720px}
+    article h2{font-size:1.35rem;margin:34px 0 12px}
+    article p{color:#33465a;margin:0 0 14px}
+    .note{background:var(--red-lt);border-left:3px solid var(--red);padding:12px 16px;font-size:.85rem;color:#7c232b;margin:28px 0}
+    .backlink{display:inline-block;margin:40px 0 10px;font-weight:600}
+    footer{background:#09243d;color:#abc6d6;margin-top:52px;padding:22px 0}
+    footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.8rem}
+    footer a{color:#d6ebf5}
+  </style>
+</head>
+<body>
+  <div class="top"><div class="wrap">
+    <a class="back" href="../index.html" data-en="← Back to HKCRSA" data-zh="← 返回 HKCRSA" data-tc="← 返回 HKCRSA">← Back to HKCRSA</a>
+    <div class="lang">
+      <button data-lang="en" onclick="setLang('en')">EN</button>
+      <button data-lang="zh" onclick="setLang('zh')">简</button>
+      <button data-lang="tc" onclick="setLang('tc')">繁</button>
+    </div>
+  </div></div>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="meta">
+        <span class="badge sample" data-en="SAMPLE — REPLACE" data-zh="示例 — 请替换" data-tc="示例 — 請替換">SAMPLE — REPLACE</span>
+        <span class="badge" data-en="Site visit" data-zh="现场考察" data-tc="現場考察">Site visit</span>
+        <span data-en="June 2025 · Hong Kong" data-zh="2025年6月 · 香港" data-tc="2025年6月 · 香港">June 2025 · Hong Kong</span>
+      </div>
+      <h1 data-en="Site Visit: Calibration &amp; QA (Sample)" data-zh="现场考察：校准与质量保证（示例）" data-tc="現場考察：校準與質量保證（示例）">Site Visit: Calibration &amp; QA (Sample)</h1>
+      <p class="lead" data-en="One or two sentences summarising the event: what happened, where, and who was involved. This is a sample write-up." data-zh="一两句话概括活动内容：发生了什么、在哪里、有哪些人参与。这是一篇示例文章。" data-tc="一兩句話概括活動內容：發生了甚麼、在哪裏、有哪些人參與。這是一篇示例文章。">One or two sentences summarising the event: what happened, where, and who was involved. This is a sample write-up.</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="figure" data-en="📷 Replace with a real photo" data-zh="📷 请替换为真实照片" data-tc="📷 請替換為真實照片">📷 Replace with a real photo</div>
+
+    <article>
+      <h2 data-en="Background" data-zh="背景" data-tc="背景">Background</h2>
+      <p data-en="Describe the context of the visit or activity: the facility, the purpose, and the questions or objectives. Replace this placeholder text with real content." data-zh="描述本次考察或活动的背景：机构情况、活动目的及要解答的问题。请将这段占位文字替换为真实内容。" data-tc="描述本次考察或活動的背景：機構情況、活動目的及要解答的問題。請將這段佔位文字替換為真實內容。">Describe the context of the visit or activity: the facility, the purpose, and the questions or objectives. Replace this placeholder text with real content.</p>
+
+      <h2 data-en="Highlights" data-zh="活动亮点" data-tc="活動亮點">Highlights</h2>
+      <p data-en="Summarise what was seen, discussed or achieved during the activity. Use bullet points if helpful." data-zh="概括活动期间看到、讨论或达成的要点，如有需要可使用要点列表。" data-tc="概括活動期間看到、討論或達成的要點，如有需要可使用要點列表。">Summarise what was seen, discussed or achieved during the activity. Use bullet points if helpful.</p>
+
+      <h2 data-en="Outcomes &amp; next steps" data-zh="成果与后续" data-tc="成果與後續">Outcomes &amp; next steps</h2>
+      <p data-en="Summarise the outcomes of the activity and any follow-up work." data-zh="总结活动成果及后续跟进工作。" data-tc="總結活動成果及後續跟進工作。">Summarise the outcomes of the activity and any follow-up work.</p>
+    </article>
+
+    <div class="note" data-en="This is a sample/placeholder page. Replace the title, text and photo with real content before publishing." data-zh="这是一个示例/占位页面。发布前请替换标题、正文和照片为真实内容。" data-tc="這是一個示例/佔位頁面。發佈前請替換標題、正文和照片為真實內容。">This is a sample/placeholder page. Replace the title, text and photo with real content before publishing.</div>
+
+    <a class="backlink" href="../index.html#events" data-en="← All activities" data-zh="← 全部动态" data-tc="← 全部動態">← All activities</a>
+  </div>
+
+  <footer><div class="wrap">
+    <span>© 2025 Hong Kong China Radiation Safety Association (HKCRSA).</span>
+    <a href="../index.html" data-en="Home" data-zh="首页" data-tc="首頁">Home</a>
+  </div></footer>
+
+  <script>
+    function setLang(l){
+      document.documentElement.lang = l==="zh" ? "zh-CN" : l==="tc" ? "zh-HK" : "en";
+      document.body.className = l==="en" ? "" : l;
+      document.querySelectorAll(".lang button").forEach(b=>{
+        b.classList.toggle("on", b.getAttribute("data-lang")===l);
+      });
+      document.querySelectorAll("[data-en]").forEach(el=>{
+        const t = el.getAttribute("data-"+l) || el.getAttribute("data-en");
+        if(t) el.innerHTML = t;
+      });
+    }
+    setLang("en");
+  </script>
+</body>
+</html>
