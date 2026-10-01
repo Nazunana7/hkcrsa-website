@@ -40,7 +40,7 @@ Every page is self-contained: styles are inlined in a `<style>` block, and langu
 
 ## Features
 
-- **Trilingual** — English / 简体中文 / 繁體中文, switchable via the top bar
+- **Trilingual** — English / 简体中文 / 繁體中文， switchable via the top bar
 - **Sections:** About · Focus Areas · Standards · Our Team · Membership · Recent Events · Contact
 - **Responsive** — works on mobile and desktop
 - **No dependencies** — no npm, no build step; open `hkcrsa-website/index.html` directly in a browser to preview
